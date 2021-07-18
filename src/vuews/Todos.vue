@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Todo</h2>
+    <h2>Todos</h2>
     <AddItem 
       v-on:addNewItem = "addNewItem"
     />
@@ -13,8 +13,8 @@
 
 
 <script>
-import TodoList from "./components/TodoList";
-import AddItem from "./components/AddItem";
+import TodoList from "@/components/TodoList";
+import AddItem from "@/components/AddItem";
 export default {
   name: 'App',
   components: {
